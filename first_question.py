@@ -1,8 +1,5 @@
 
 
-from sqlalchemy import true
-
-
 def is_even(value):
     return not int(bin(value)[-1])
 
